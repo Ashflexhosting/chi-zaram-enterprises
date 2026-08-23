@@ -311,3 +311,10 @@ The cooking inspiration section has been restyled with a deep charcoal backgroun
 ## Transparent category emblem — verification
 
 The supplied emblem now uses a true transparent-background PNG in the homepage “What we carry” category cards. Desktop verification shows the gold frame, green leaves, and red fruits read cleanly over the card imagery without the former white circular plate. Mobile verification keeps the emblem visible at the top-right of each stacked card without clipping. Type checking and production build pass, and the transparent asset is present in `dist/public/manus-storage`.
+
+
+## Shop Address Update
+- [x] Inspect all current location displays in shared layout and Contact page.
+- [x] Add the complete shop address: Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos.
+- [x] Verify desktop and mobile readability and run a production build.
+- [ ] Save a checkpoint and report the live version.

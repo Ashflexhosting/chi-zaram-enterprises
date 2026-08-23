@@ -143,7 +143,7 @@ export default function SiteLayout({ children, activePath }: { children: ReactNo
           </div>
           <div className="footer-contact">
             <span>Start a conversation</span>
-            <a href="tel:+2348037365227"><Phone size={15} /> 0803 736 5227</a><span className="footer-contact__location">Isolo, Lagos <span className="footer-contact__hours">Mon–Fri, 9 AM–5 PM</span> <BusinessStatusBadge /></span>
+            <a href="tel:+2348037365227"><Phone size={15} /> 0803 736 5227</a><span className="footer-contact__location"><strong>Shop 5 Faronbi Plaza</strong><span>Opposite Isolo General Hospital, Lagos</span><span className="footer-contact__hours">Mon–Fri, 9 AM–5 PM</span> <BusinessStatusBadge /></span>
             <div className="footer-socials" aria-label="Social media links">
               <a href="https://www.tiktok.com/@ogonwibe" target="_blank" rel="noreferrer" aria-label="CHI-ZARAM on TikTok"><Music2 size={15} /><span>TikTok</span></a>
               <a href="https://web.facebook.com/ogoonwokoye/photos" target="_blank" rel="noreferrer" aria-label="CHI-ZARAM on Facebook"><Share2 size={15} /><span>Facebook</span></a>
