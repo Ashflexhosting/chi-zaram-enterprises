@@ -337,5 +337,5 @@ The supplied emblem now uses a true transparent-background PNG in the homepage â
 ## Homepage Footer Address Visibility
 - [x] Inspect the homepage footer on published desktop and mobile views. The live GitHub Pages homepage footer does not expose the shop address or directions link, unlike the published Contact page.
 - [x] Correct any footer layout or styling that obscures the full shop address. Updated Home.tsxâ€™s standalone footer to show the full shop address, Google Maps directions link, hours, and live status badge.
-- [x] Verify the homepage footer address in local desktop and mobile renders.
+- [x] Verify the homepage footer address in local desktop and mobile renders, and on GitHub Pages after deployment run 32630307573. The live page exposes Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos, and Get directions.
 - [ ] Save a checkpoint and report the correction.
