@@ -318,3 +318,12 @@ The supplied emblem now uses a true transparent-background PNG in the homepage â
 - [x] Add the complete shop address: Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos.
 - [x] Verify desktop and mobile readability and run a production build.
 - [ ] Save a checkpoint and report the live version.
+
+
+## Directions, Bulk Address, and Local SEO Update
+- [x] Inspect the shared footer, Contact page, Bulk Supply enquiry, and SEO head implementation.
+- [x] Add Google Maps directions links beside the shop address in the footer and Contact page.
+- [x] Include the shop address in bulk-supply enquiry confirmation messages.
+- [x] Add Schema.org LocalBusiness structured data for the shop.
+- [x] Verify links, JSON-LD, responsive layouts, and production build.
+- [ ] Save a checkpoint and report the live version.

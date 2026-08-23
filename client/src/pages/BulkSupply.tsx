@@ -5,7 +5,7 @@
 import { ArrowUpRight, Check, Truck } from "lucide-react";
 import { assetPath } from "@/lib/sitePaths";
 import { FormEvent, useState } from "react";
-import SiteLayout, { whatsappHref } from "@/components/SiteLayout";
+import SiteLayout, { shopAddress, shopDirectionsHref, whatsappHref } from "@/components/SiteLayout";
 import SEOHead from "@/components/SEOHead";
 
 const pricingTiers = [
@@ -28,7 +28,7 @@ export default function BulkSupply() {
   const submit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
-    const message = `Hello CHI-ZARAM Wholesale Desk, I would like to request a bulk supply quotation.\n\n• Product: ${form.get("product")}\n• Quantity: ${form.get("quantity")}\n• Location: ${form.get("location")}\n• Buyer type: ${form.get("buyer")}\n\nPlease share current pricing, availability, MOQ, and delivery arrangements.`;
+    const message = `Hello CHI-ZARAM Wholesale Desk, I would like to request a bulk supply quotation.\n\n• Product: ${form.get("product")}\n• Quantity: ${form.get("quantity")}\n• Location: ${form.get("location")}\n• Buyer type: ${form.get("buyer")}\n\nShop address: ${shopAddress}\nGet directions: ${shopDirectionsHref}\n\nPlease share current pricing, availability, MOQ, and delivery arrangements.`;
     setSent(true);
     window.open(whatsappHref(message), "_blank", "noopener,noreferrer");
   };

@@ -5,7 +5,7 @@
 import { ArrowUpRight, ChevronDown, Instagram, MessageCircle, Phone } from "lucide-react";
 import { assetPath } from "@/lib/sitePaths";
 import { FormEvent, useState } from "react";
-import SiteLayout, { BusinessStatusBadge, whatsappHref } from "@/components/SiteLayout";
+import SiteLayout, { BusinessStatusBadge, shopDirectionsHref, whatsappHref } from "@/components/SiteLayout";
 import SEOHead from "@/components/SEOHead";
 
 const faqs = [
@@ -88,7 +88,7 @@ export default function Contact() {
                   <ArrowUpRight size={16} />
                 </a>
               </div>
-              <p className="contact-location"><small>Shop address</small><strong>Shop 5 Faronbi Plaza</strong><span>Opposite Isolo General Hospital, Lagos</span><span>Mon–Fri, 9 AM–5 PM</span><BusinessStatusBadge /></p>
+              <p className="contact-location"><small>Shop address</small><strong>Shop 5 Faronbi Plaza</strong><span>Opposite Isolo General Hospital, Lagos</span><a className="shop-directions-link" href={shopDirectionsHref} target="_blank" rel="noreferrer">Get directions <ArrowUpRight size={12} /></a><span>Mon–Fri, 9 AM–5 PM</span><BusinessStatusBadge /></p>
             </div>
 
             <form className="contact-form" onSubmit={submit}>

@@ -1748,6 +1748,31 @@ html { font-size: calc(100% * var(--a11y-scale, 1)); }
   font-size: 10px;
   line-height: 1.5;
 }
+.shop-directions-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  color: #c99a4a;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-color: rgba(201, 154, 74, 0.45);
+  text-underline-offset: 3px;
+  transition: color 160ms var(--ease-out), text-decoration-color 160ms var(--ease-out), transform 160ms var(--ease-out);
+}
+.shop-directions-link:hover {
+  color: #9f2f2a;
+  text-decoration-color: currentColor;
+  transform: translateX(2px);
+}
+.footer-contact__location .shop-directions-link {
+  color: #f0c875;
+}
+.footer-contact__location .shop-directions-link:hover {
+  color: #fffaf3;
+}
 .footer-contact__hours {
   color: #d9cdbd;
   font-size: 10px;

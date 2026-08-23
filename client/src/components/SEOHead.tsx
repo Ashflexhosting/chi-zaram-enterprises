@@ -56,32 +56,52 @@ export default function SEOHead({ title, description, path, image = "/manus-stor
       scriptLd.setAttribute("type", "application/ld+json");
       document.head.appendChild(scriptLd);
     }
+    const siteUrl = window.location.origin;
+    const logoUrl = siteUrl + assetPath("/manus-storage/chizaram-logo-cz_cdd4320b.webp");
+    const shopDirectionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent("Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos")}`;
+    const openingHoursSpecification = {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    };
+    const shopAddress = {
+      "@type": "PostalAddress",
+      "streetAddress": "Shop 5 Faronbi Plaza, Opposite Isolo General Hospital",
+      "addressLocality": "Isolo",
+      "addressRegion": "Lagos",
+      "addressCountry": "NG"
+    };
     const structuredData = {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "CHI-ZARAM Palm Oil & More Enterprises",
-      "url": window.location.origin,
-      "logo": window.location.origin + assetPath("/manus-storage/chizaram-logo-cz_cdd4320b.webp"),
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+234-803-736-5227",
-        "contactType": "sales",
-        "availableLanguage": ["English"]
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Isolo",
-        "addressRegion": "Lagos",
-        "addressCountry": "NG"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "09:00",
-        "closes": "17:00"
-      },
-      "sameAs": [
-        "https://www.tiktok.com/@ogonwibe"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": `${siteUrl}/#organization`,
+          "name": "CHI-ZARAM Palm Oil & More Enterprises",
+          "url": siteUrl,
+          "logo": logoUrl,
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+234-803-736-5227",
+            "contactType": "sales",
+            "availableLanguage": ["English"]
+          },
+          "sameAs": ["https://www.tiktok.com/@ogonwibe"]
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": `${siteUrl}/#localbusiness`,
+          "name": "CHI-ZARAM Palm Oil & More Enterprises",
+          "description": "Palm oil, vegetable oil, and everyday consumer products from CHI-ZARAM in Isolo, Lagos.",
+          "url": siteUrl,
+          "logo": logoUrl,
+          "telephone": "+234-803-736-5227",
+          "parentOrganization": { "@id": `${siteUrl}/#organization` },
+          "address": shopAddress,
+          "hasMap": shopDirectionsUrl,
+          "openingHoursSpecification": openingHoursSpecification
+        }
       ]
     };
     scriptLd.textContent = JSON.stringify(structuredData);
