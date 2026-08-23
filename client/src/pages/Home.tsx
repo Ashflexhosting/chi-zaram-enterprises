@@ -8,16 +8,21 @@ import {
   ArrowLeft,
   ArrowRight,
   ArrowUpRight,
+  BookOpen,
   Check,
   ChevronDown,
+  House,
+  Images,
   Music2,
   Share2,
   Leaf,
   Menu,
   MessageCircle,
   MoveRight,
+  PackageOpen,
   Phone,
   Sparkles,
+  Tags,
   Truck,
   X,
 } from "lucide-react";
@@ -338,13 +343,13 @@ export default function Home() {
           </a>
 
             <nav className={`main-nav ${mobileOpen ? "main-nav--open" : ""}`} aria-label="Primary navigation">
-            <a className="is-active" href={`${siteBase}/`} onClick={() => setMobileOpen(false)}>Home</a>
-            <a href={`${siteBase}/story`} onClick={() => setMobileOpen(false)}>Our story</a>
-            <a href={`${siteBase}/catalogue`} onClick={() => setMobileOpen(false)}>What we carry</a>
-            <a href={`${siteBase}/packs-pricing`} onClick={() => setMobileOpen(false)}>Packs &amp; Pricing</a>
-            <a href={`${siteBase}/bulk-supply`} onClick={() => setMobileOpen(false)}>Bulk supply</a>
-            <a href={`${siteBase}/contact`} onClick={() => setMobileOpen(false)}>Contact</a>
-            <a href={`${siteBase}/gallery`} onClick={() => setMobileOpen(false)}>Gallery</a>
+            <a className="is-active" href={`${siteBase}/`} onClick={() => setMobileOpen(false)}><House className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Home</span></a>
+            <a href={`${siteBase}/story`} onClick={() => setMobileOpen(false)}><BookOpen className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Our story</span></a>
+            <a href={`${siteBase}/catalogue`} onClick={() => setMobileOpen(false)}><PackageOpen className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>What we carry</span></a>
+            <a href={`${siteBase}/packs-pricing`} onClick={() => setMobileOpen(false)}><Tags className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Packs &amp; Pricing</span></a>
+            <a href={`${siteBase}/bulk-supply`} onClick={() => setMobileOpen(false)}><Truck className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Bulk supply</span></a>
+            <a href={`${siteBase}/contact`} onClick={() => setMobileOpen(false)}><Phone className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Contact</span></a>
+            <a href={`${siteBase}/gallery`} onClick={() => setMobileOpen(false)}><Images className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Gallery</span></a>
             <a className="main-nav__mobile-cta" href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hello CHI-ZARAM, I would like to place an order. Please share current product availability and delivery terms.")}`} target="_blank" rel="noreferrer" onClick={() => setMobileOpen(false)}>
               Order on WhatsApp <ArrowUpRight size={16} />
             </a>

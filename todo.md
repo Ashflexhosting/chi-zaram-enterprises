@@ -339,3 +339,9 @@ The supplied emblem now uses a true transparent-background PNG in the homepage â
 - [x] Correct any footer layout or styling that obscures the full shop address. Updated Home.tsxâ€™s standalone footer to show the full shop address, Google Maps directions link, hours, and live status badge.
 - [x] Verify the homepage footer address in local desktop and mobile renders, and on GitHub Pages after deployment run 32630307573. The live page exposes Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos, and Get directions.
 - [ ] Save a checkpoint and report the correction.
+
+## Primary Navigation Icons
+- [x] Inspect shared and homepage-specific primary navigation markup and styling.
+- [x] Add semantically matched icons beside each primary menu label.
+- [x] Verify icon sizing, active states, mobile navigation, and accessibility with desktop/mobile screenshots, TypeScript checking, and a production build.
+- [ ] Save a checkpoint and report the navigation update.

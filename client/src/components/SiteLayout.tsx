@@ -3,7 +3,7 @@
  * deep leaf green, editorial serif headlines, WhatsApp-first conversion,
  * a concise footer enquiry form, social links, and a shared Back to Top affordance across every page.
  */
-import { ArrowUpRight, ChevronUp, Menu, MessageCircle, Music2, Phone, Share2, X } from "lucide-react";
+import { ArrowUpRight, BookOpen, ChevronUp, House, Images, Menu, MessageCircle, Music2, PackageOpen, Phone, Share2, Tags, Truck, X } from "lucide-react";
 import { assetPath } from "@/lib/sitePaths";
 import { Link } from "wouter";
 import { useEffect, useState } from "react";
@@ -117,13 +117,13 @@ export default function SiteLayout({ children, activePath }: { children: ReactNo
             <span className="brand-lockup__type"><strong>CHI-ZARAM</strong><small>Palm Oil &amp; More</small></span>
           </Link>
           <nav className={`main-nav page-nav ${mobileOpen ? "main-nav--open" : ""}`} aria-label="Primary navigation">
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/" ? "is-active" : ""} href="/">Home</Link>
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/story" ? "is-active" : ""} href="/story">Our story</Link>
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/catalogue" ? "is-active" : ""} href="/catalogue">What we carry</Link>
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/packs-pricing" ? "is-active" : ""} href="/packs-pricing">Packs &amp; Pricing</Link>
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/bulk-supply" ? "is-active" : ""} href="/bulk-supply">Bulk supply</Link>
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/contact" ? "is-active" : ""} href="/contact">Contact</Link>
-            <Link onClick={() => setMobileOpen(false)} className={activePath === "/gallery" ? "is-active" : ""} href="/gallery">Gallery</Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/" ? "is-active" : ""} href="/"><House className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Home</span></Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/story" ? "is-active" : ""} href="/story"><BookOpen className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Our story</span></Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/catalogue" ? "is-active" : ""} href="/catalogue"><PackageOpen className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>What we carry</span></Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/packs-pricing" ? "is-active" : ""} href="/packs-pricing"><Tags className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Packs &amp; Pricing</span></Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/bulk-supply" ? "is-active" : ""} href="/bulk-supply"><Truck className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Bulk supply</span></Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/contact" ? "is-active" : ""} href="/contact"><Phone className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Contact</span></Link>
+            <Link onClick={() => setMobileOpen(false)} className={activePath === "/gallery" ? "is-active" : ""} href="/gallery"><Images className="main-nav__icon" size={14} strokeWidth={1.8} aria-hidden="true" /><span>Gallery</span></Link>
             <a className="mobile-nav-call" href="tel:08037365227" aria-label="Call CHI-ZARAM at 0803 736 5227"><Phone size={17} /><span>Call 0803 736 5227</span><ArrowUpRight size={14} /></a>
           </nav>
           <a className="header-cta" href={whatsappHref()} target="_blank" rel="noreferrer"><MessageCircle size={16} /><span>Order on WhatsApp</span></a>
