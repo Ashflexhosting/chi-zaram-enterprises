@@ -327,3 +327,15 @@ The supplied emblem now uses a true transparent-background PNG in the homepage â
 - [x] Add Schema.org LocalBusiness structured data for the shop.
 - [x] Verify links, JSON-LD, responsive layouts, and production build.
 - [ ] Save a checkpoint and report the live version.
+
+## Published Site and GitHub Pages Diagnosis
+- [x] Inspect local commit, GitHub branch, Pages workflow, and deployed responses. The local checkpoint was 439ef537 while GitHub Pages was still serving the earlier f0d2efb commit.
+- [x] Correct any missing push, workflow, asset, or base-path deployment issue. Pushed 439ef537 to Ashflexhosting/chi-zaram and confirmed Pages workflow 32629827929 completed successfully.
+- [x] Verify the live Manus site and GitHub Pages show the address and directions updates. Both published Contact pages display Shop 5 Faronbi Plaza and the Get directions link.
+- [ ] Save a checkpoint and report the resolved deployment status.
+
+## Homepage Footer Address Visibility
+- [x] Inspect the homepage footer on published desktop and mobile views. The live GitHub Pages homepage footer does not expose the shop address or directions link, unlike the published Contact page.
+- [x] Correct any footer layout or styling that obscures the full shop address. Updated Home.tsxâ€™s standalone footer to show the full shop address, Google Maps directions link, hours, and live status badge.
+- [x] Verify the homepage footer address in local desktop and mobile renders.
+- [ ] Save a checkpoint and report the correction.
