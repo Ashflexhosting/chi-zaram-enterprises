@@ -25,7 +25,8 @@
 - [x] Verify every public route after the frontend-only cleanup.
 - [x] Resolve the stale server-path error by restarting the static Vite service, then run a final whole-project remnant scan.
 - [x] Run a repository-wide scan for backend, database, authentication, login, and server remnants outside generated output.
-- [ ] Save a checkpoint and report the frontend-only project state.
+- [x] Save a checkpoint and report the frontend-only project state.
+- [x] Report the verified frontend-only cleanup status to the user with the recorded checkpoint.
 
 - [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
 - [x] Prepare selected uploaded assets for website use and map them to expanded sections.
