@@ -16,7 +16,7 @@
 - [x] Audit homepage sections at representative phone widths for alignment, overflow, cropping, and tap targets.
 - [x] Refine mobile-specific homepage layout, spacing, typography, imagery, and controls.
 - [x] Verify responsive results at 375px and 320px phone widths and run the production build.
-- [ ] Save a checkpoint and report the optimized mobile homepage.
+- [x] Save a checkpoint and report the optimized mobile homepage.
 
 - [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
 - [x] Prepare selected uploaded assets for website use and map them to expanded sections.
