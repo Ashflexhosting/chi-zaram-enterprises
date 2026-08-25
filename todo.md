@@ -7,6 +7,11 @@
 - [x] Verify restored WhatsApp, telephone, directions, and contact form action targets through static source inspection.
 - [x] Save a checkpoint and report the restored static website.
 
+## GitHub Static-Site Synchronization
+- [x] Push the restored static website to the connected GitHub repository.
+- [x] Verify the GitHub Pages workflow completes from the current static-site commit (`1b1b993`, workflow 32837471870).
+- [x] Report the GitHub Pages update status.
+
 - [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
 - [x] Prepare selected uploaded assets for website use and map them to expanded sections.
 - [x] Expand the website with richer product details, gallery content, and stronger brand storytelling.
