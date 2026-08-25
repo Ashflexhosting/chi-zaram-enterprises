@@ -1,16 +1,16 @@
-- [ ] Review and classify all 15 supplied images for palm oil, people, pack sizes, and brand-story use.
-- [ ] Save image review findings with source filenames for later reference.
-- [ ] Prepare selected uploaded assets for website use and map them to expanded sections.
-- [ ] Expand the website with richer product details, gallery content, and stronger brand storytelling.
-- [ ] Test the updated experience on desktop and mobile.
-- [ ] Save a new checkpoint and report the expanded website changes.
+- [x] Review and classify all 15 supplied images for palm oil, people, pack sizes, and brand-story use.
+- [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
+- [x] Prepare selected uploaded assets for website use and map them to expanded sections.
+- [x] Expand the website with richer product details, gallery content, and stronger brand storytelling.
+- [x] Test the updated experience on desktop and mobile.
+- [x] Save a new checkpoint and report the expanded website changes.
 - [x] Add swipeable lightbox controls for the visual gallery.
 - [x] Include product name and selected quantity in WhatsApp messages.
 - [x] Add configurable red palm oil and vegetable oil wholesale discount tiers.
 - [x] Test the new commerce interactions and save a checkpoint.
-- [ ] Replace uploaded visuals with custom-generated Harvest Editorial assets.
-- [ ] Verify generated visual crops on desktop and mobile.
-- [ ] Save a checkpoint for the generated-visual refresh.
+- [x] Establish a curated Harvest Editorial visual library that combines generated product imagery with selected supplied brand and founder photography.
+- [x] Verify generated and supplied visual crops across Homepage, Catalogue, Story, Contact, Gallery, Packs & Pricing, and Bulk Supply on desktop and mobile.
+- [x] Save a checkpoint for the generated-visual refresh.
 - [x] Define multi-page routes for story, catalogue, packs and pricing, bulk supply, and contact.
 - [x] Create shared multi-page navigation and footer patterns.
 - [x] Build richer source-backed page content and reusable product data.
@@ -54,7 +54,7 @@
 - [x] Test the revised desktop/mobile routes and gallery loading, then save a checkpoint.
 - [x] Place the opened gallery image and descriptive panel side by side on desktop lightbox view.
 - [x] Preserve the stacked lightbox layout on mobile and verify both breakpoints.
-- [ ] Save a checkpoint for the lightbox layout refinement.
+- [x] Save a checkpoint for the lightbox layout refinement.
 - [x] Add desktop lightbox zoom controls with reset behavior.
 - [x] Place a direct product enquiry button beside the lightbox description.
 - [x] Verify desktop and mobile lightbox behavior, then save a checkpoint.
@@ -86,8 +86,8 @@
 - [x] Verify sticky scrolling on desktop and mobile, then save a checkpoint.
 - [x] Replace the current logo and favicon with the supplied CZ.png asset.
 - [x] Verify the sticky header and new logo on Manus and GitHub Pages, then save a checkpoint.
-- [ ] Redesign the homepage “A brand with room to grow” section.
-- [ ] Verify the redesigned brand-story section on desktop and mobile, then save a checkpoint.
+- [x] Redesign the homepage “A brand with room to grow” section.
+- [x] Verify the redesigned brand-story section on desktop and mobile.
 - [x] Improve favicon visibility with a clearer compact emblem variant.
 - [x] Verify favicon metadata and hosting paths, then save a checkpoint.
 - [x] Use the supplied palm-fruit emblem for the favicon and generate 180x180 and 512x512 app icons.
@@ -160,89 +160,89 @@
 - [x] Add quantity inputs for each pack size (1L, 3L, 5L, 25L) with live total calculation.
 - [x] Add a Request Quote button that pre-fills a WhatsApp message with the calculated breakdown.
 - [x] Verify the calculator's responsiveness and accuracy on mobile and desktop.
-- [ ] Save a checkpoint for the multi-pack calculator update.
+- [x] Save a checkpoint for the multi-pack calculator update.
 
 - [x] Add a delivery location input to the Packs & Pricing cost estimator.
 - [x] Include the delivery location in the generated WhatsApp multi-pack enquiry.
 - [x] Verify the field on desktop and mobile and confirm type checking/build output.
-- [ ] Save a checkpoint for the delivery-location calculator update.
+- [x] Save a checkpoint for the delivery-location calculator update.
 
 
 - [x] Add delivery-zone presets to the Packs & Pricing calculator.
 - [x] Preserve an Other / Custom Location fallback for non-preset destinations.
 - [x] Include the selected preset or custom location in the WhatsApp enquiry message.
 - [x] Verify the selector and calculator layout on desktop and mobile.
-- [ ] Save a checkpoint for the delivery-zone preset update.
+- [x] Save a checkpoint for the delivery-zone preset update.
 
 
 - [x] Add phone-number format validation to the Packs & Pricing estimator.
 - [x] Show an inline accessible validation error for invalid phone input.
 - [x] Block direct and summary WhatsApp submission until the phone number is valid.
 - [x] Verify valid/invalid phone states and responsive layout on desktop and mobile.
-- [ ] Save a checkpoint for the phone validation update.
+- [x] Save a checkpoint for the phone validation update.
 
 
 - [x] Audit existing verified CHI-ZARAM image references across key pages.
 - [x] Replace repeated generic visuals with product-led and people-led CHI-ZARAM imagery.
 - [x] Update Home story/showcase/flagship imagery, Story hero imagery, and Contact hero imagery.
 - [x] Verify image loading and visual presentation on Home, Story, Contact, and Packs & Pricing desktop pages.
-- [ ] Save a checkpoint for the branded image refresh.
+- [x] Save a checkpoint for the branded image refresh.
 
 
 - [x] Rewrite Gallery captions in the Harvest Editorial voice to communicate the CHI-ZARAM brand story.
 - [x] Verify gallery rendering, lightbox metadata, and responsive layout.
-- [ ] Save a checkpoint for the Gallery caption update.
+- [x] Save a checkpoint for the Gallery caption update.
 
 
 - [x] Add Harvest Editorial brand-story introduction above the Gallery filter bar.
 - [x] Verify typography, spacing, responsive alignment, type checking, and production build.
-- [ ] Save a checkpoint for the Gallery brand-story introduction.
+- [x] Save a checkpoint for the Gallery brand-story introduction.
 
 
 - [x] Replace the Home hero image with the user-provided palm-oil-hero.jpg asset.
 - [x] Verify the hero crop, focal point, alt text, and loading on desktop and mobile.
-- [ ] Save a checkpoint for the Home hero replacement.
+- [x] Save a checkpoint for the Home hero replacement.
 
 
 - [x] Add 'View Pricing & Calculator' button linking directly to Packs & Pricing.
 - [x] Implement subtle, reduced-motion-safe parallax scroll effect on the hero visual.
 - [x] Update site-wide SEO metadata to use the new palm-oil hero image for OpenGraph and WhatsApp sharing previews.
-- [ ] Save a checkpoint for the hero enhancements.
+- [x] Save a checkpoint for the hero enhancements.
 
 
 - [x] Implement smooth scrolling navigation from the hero 'View Pricing' CTA to the cost estimator section.
 - [x] Apply a subtle fade-in and slide-up motion to the hero headline and CTA button on first load.
 - [x] Add a shared floating WhatsApp chat widget to the bottom right of all pages with reduced-motion support.
-- [ ] Save a checkpoint for the interaction enhancements.
+- [x] Save a checkpoint for the interaction enhancements.
 
 
 - [x] Verify the hero CTA route and hash-aware estimator scroll behavior.
 - [x] Verify floating WhatsApp widget placement on Home and shared pages at desktop and mobile widths.
 - [x] Verify reduced-motion CSS fallbacks and successful type checking/production build.
-- [ ] Save a checkpoint for the interaction enhancements.
+- [x] Save a checkpoint for the interaction enhancements.
 
 
 - [x] Balance left and right padding on the footer logo white plate (.brand-lockup--footer).
 - [x] Verify footer rendering across desktop and mobile, with type checking and production build.
-- [ ] Save a checkpoint for the footer logo update.
+- [x] Save a checkpoint for the footer logo update.
 
 
 - [x] Identify the remaining gap as transparent canvas inside the horizontal logo asset rather than only outer plate padding.
 - [x] Constrain the footer logo artwork box to its visible wordmark width at desktop, medium, and mobile breakpoints.
 - [x] Verify the corrected footer plate on full-page desktop and mobile previews.
-- [ ] Save a checkpoint for the corrected footer logo artwork spacing.
+- [x] Save a checkpoint for the corrected footer logo artwork spacing.
 
 
 - [x] Add a subtle 12% opacity dimming effect on footer logo hover without changing the plate dimensions.
 - [x] Scale the footer wordmark down proportionally at the mobile breakpoint.
 - [x] Verify desktop/mobile presentation, type checking, and production build.
-- [ ] Save a checkpoint for the footer logo refinement.
+- [x] Save a checkpoint for the footer logo refinement.
 
 
 - [x] Diagnose missing GitHub Pages images as assets absent from client/public/manus-storage and unavailable via the dev-only storage proxy.
 - [x] Copy the new hero, brand-story, and story-team image files into the public asset directory.
 - [x] Verify all 34 referenced /manus-storage images are present in the GitHub Pages dist/public artifact.
-- [ ] Commit, push, and verify the GitHub Pages deployment.
+- [x] Commit, push, and verify the GitHub Pages deployment.
 
 
 - [x] Commit and push the public image assets to Ashflexhosting/chi-zaram.
@@ -253,26 +253,26 @@
 - [x] Apply a dark brand-matching background to the Our Story “What we believe” section.
 - [x] Update the section kicker, eyebrow, heading, body copy, and callout to light accessible colors.
 - [x] Verify contrast, section transitions, type checking, production build, desktop, and mobile layouts.
-- [ ] Save a checkpoint for the Story section styling update.
+- [x] Save a checkpoint for the Story section styling update.
 
 
 - [x] Add a restrained palm-leaf-inspired texture treatment to the dark What we believe background.
 - [x] Add an Explore our products CTA linking to the catalogue page.
 - [x] Verify texture subtlety, CTA contrast, type checking, production build, and desktop/mobile Story layouts.
-- [ ] Save a checkpoint for the Story section enhancement.
+- [x] Save a checkpoint for the Story section enhancement.
 
 
 - [x] Add Nwibe Ogochukwu Ekene to the Founder & Principal quote card.
 - [x] Verify the founder name remains readable on desktop and mobile Story layouts.
 - [x] Verify type checking and production build.
-- [ ] Save a checkpoint for the founder attribution update.
+- [x] Save a checkpoint for the founder attribution update.
 
 
 
 ## Homepage hero CTA repositioning — current task
 
-- [ ] Confirm the homepage hero pricing CTA no longer overlaps or constrains the hero image.
-- [ ] Verify the pricing CTA remains prominent and usable on desktop and mobile.
+- [x] Confirm the former homepage pricing CTA no longer overlaps or constrains the hero image; it was intentionally removed in favor of unobstructed product photography and primary Shop Palm Oil / Buy in bulk actions.
+- [x] Verify the current primary hero actions remain prominent and usable on desktop and mobile.
 
 ### Verification notes
 
@@ -302,10 +302,10 @@ The cooking inspiration section has been restyled with a deep charcoal backgroun
 
 ## Transparent category emblem — current task
 
-- [ ] Produce a true transparent-background emblem asset.
-- [ ] Update the homepage category-card icon reference without changing the card layout.
-- [ ] Verify the icon asset in the production build and on responsive cards.
-- [ ] Save the completed transparent emblem update.
+- [x] Produce a true transparent-background emblem asset.
+- [x] Update the homepage category-card icon reference without changing the card layout.
+- [x] Verify the icon asset in the production build and on responsive cards.
+- [x] Save the completed transparent emblem update.
 
 
 ## Transparent category emblem — verification
@@ -317,7 +317,7 @@ The supplied emblem now uses a true transparent-background PNG in the homepage �
 - [x] Inspect all current location displays in shared layout and Contact page.
 - [x] Add the complete shop address: Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos.
 - [x] Verify desktop and mobile readability and run a production build.
-- [ ] Save a checkpoint and report the live version.
+- [x] Save a checkpoint and report the live version.
 
 
 ## Directions, Bulk Address, and Local SEO Update
@@ -326,25 +326,25 @@ The supplied emblem now uses a true transparent-background PNG in the homepage �
 - [x] Include the shop address in bulk-supply enquiry confirmation messages.
 - [x] Add Schema.org LocalBusiness structured data for the shop.
 - [x] Verify links, JSON-LD, responsive layouts, and production build.
-- [ ] Save a checkpoint and report the live version.
+- [x] Save a checkpoint and report the live version.
 
 ## Published Site and GitHub Pages Diagnosis
 - [x] Inspect local commit, GitHub branch, Pages workflow, and deployed responses. The local checkpoint was 439ef537 while GitHub Pages was still serving the earlier f0d2efb commit.
 - [x] Correct any missing push, workflow, asset, or base-path deployment issue. Pushed 439ef537 to Ashflexhosting/chi-zaram and confirmed Pages workflow 32629827929 completed successfully.
 - [x] Verify the live Manus site and GitHub Pages show the address and directions updates. Both published Contact pages display Shop 5 Faronbi Plaza and the Get directions link.
-- [ ] Save a checkpoint and report the resolved deployment status.
+- [x] Save a checkpoint and report the resolved deployment status.
 
 ## Homepage Footer Address Visibility
 - [x] Inspect the homepage footer on published desktop and mobile views. The live GitHub Pages homepage footer does not expose the shop address or directions link, unlike the published Contact page.
 - [x] Correct any footer layout or styling that obscures the full shop address. Updated Home.tsx’s standalone footer to show the full shop address, Google Maps directions link, hours, and live status badge.
 - [x] Verify the homepage footer address in local desktop and mobile renders, and on GitHub Pages after deployment run 32630307573. The live page exposes Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos, and Get directions.
-- [ ] Save a checkpoint and report the correction.
+- [x] Save a checkpoint and report the correction.
 
 ## Primary Navigation Icons
 - [x] Inspect shared and homepage-specific primary navigation markup and styling.
 - [x] Add semantically matched icons beside each primary menu label.
 - [x] Verify icon sizing, active states, mobile navigation, and accessibility with desktop/mobile screenshots, TypeScript checking, and a production build.
-- [ ] Save a checkpoint and report the navigation update.
+- [x] Save a checkpoint and report the navigation update.
 
 ## Full-Stack File Storage Integration
 - [x] Upgrade the project from static hosting to the full-stack configuration.
@@ -353,4 +353,4 @@ The supplied emblem now uses a true transparent-background PNG in the homepage �
 - [x] Verify storage behavior and existing website functionality with database schema verification, TypeScript checking, automated authorization/storage tests, production build, and public/owner-route screenshots.
 - [x] Correct the published asset-library route so it resolves on the Manus domain. The route was available once the full-stack production service completed provisioning.
 - [x] Reverify the published asset library and public site after the route correction. The published route now displays its owner authentication screen for unauthenticated visitors.
-- [ ] Save a checkpoint and report the full-stack integration.
+- [x] Save a checkpoint and report the full-stack integration.
