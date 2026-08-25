@@ -351,4 +351,6 @@ The supplied emblem now uses a true transparent-background PNG in the homepage â
 - [x] Inspect the generated backend, database, and storage helpers.
 - [x] Add a secure business-asset upload and serving workflow.
 - [x] Verify storage behavior and existing website functionality with database schema verification, TypeScript checking, automated authorization/storage tests, production build, and public/owner-route screenshots.
+- [x] Correct the published asset-library route so it resolves on the Manus domain. The route was available once the full-stack production service completed provisioning.
+- [x] Reverify the published asset library and public site after the route correction. The published route now displays its owner authentication screen for unauthenticated visitors.
 - [ ] Save a checkpoint and report the full-stack integration.
