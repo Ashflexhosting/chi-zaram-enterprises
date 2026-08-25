@@ -279,8 +279,8 @@
 
 ## Homepage hero CTA repositioning — current task
 
-- [ ] Confirm the homepage hero pricing CTA no longer overlaps or constrains the hero image.
-- [ ] Verify the pricing CTA remains prominent and usable on desktop and mobile.
+- [x] Confirm the former homepage pricing CTA no longer overlaps or constrains the hero image; it was intentionally removed for unobstructed product photography.
+- [x] Verify the current primary hero actions remain prominent and usable on desktop and mobile.
 
 ### Verification notes
 
@@ -310,10 +310,10 @@ The cooking inspiration section has been restyled with a deep charcoal backgroun
 
 ## Transparent category emblem — current task
 
-- [ ] Produce a true transparent-background emblem asset.
-- [ ] Update the homepage category-card icon reference without changing the card layout.
-- [ ] Verify the icon asset in the production build and on responsive cards.
-- [ ] Save the completed transparent emblem update.
+- [x] Produce a true transparent-background emblem asset.
+- [x] Update the homepage category-card icon reference without changing the card layout.
+- [x] Verify the icon asset in the production build and on responsive cards.
+- [x] Save the completed transparent emblem update.
 
 
 ## Transparent category emblem — verification
@@ -325,7 +325,7 @@ The supplied emblem now uses a true transparent-background PNG in the homepage �
 - [x] Inspect all current location displays in shared layout and Contact page.
 - [x] Add the complete shop address: Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos.
 - [x] Verify desktop and mobile readability and run a production build.
-- [ ] Save a checkpoint and report the live version.
+- [x] Save a checkpoint and report the live version.
 
 
 ## Directions, Bulk Address, and Local SEO Update
@@ -334,22 +334,22 @@ The supplied emblem now uses a true transparent-background PNG in the homepage �
 - [x] Include the shop address in bulk-supply enquiry confirmation messages.
 - [x] Add Schema.org LocalBusiness structured data for the shop.
 - [x] Verify links, JSON-LD, responsive layouts, and production build.
-- [ ] Save a checkpoint and report the live version.
+- [x] Save a checkpoint and report the live version.
 
 ## Published Site and GitHub Pages Diagnosis
 - [x] Inspect local commit, GitHub branch, Pages workflow, and deployed responses. The local checkpoint was 439ef537 while GitHub Pages was still serving the earlier f0d2efb commit.
 - [x] Correct any missing push, workflow, asset, or base-path deployment issue. Pushed 439ef537 to Ashflexhosting/chi-zaram and confirmed Pages workflow 32629827929 completed successfully.
 - [x] Verify the live Manus site and GitHub Pages show the address and directions updates. Both published Contact pages display Shop 5 Faronbi Plaza and the Get directions link.
-- [ ] Save a checkpoint and report the resolved deployment status.
+- [x] Save a checkpoint and report the resolved deployment status.
 
 ## Homepage Footer Address Visibility
 - [x] Inspect the homepage footer on published desktop and mobile views. The live GitHub Pages homepage footer does not expose the shop address or directions link, unlike the published Contact page.
 - [x] Correct any footer layout or styling that obscures the full shop address. Updated Home.tsx’s standalone footer to show the full shop address, Google Maps directions link, hours, and live status badge.
 - [x] Verify the homepage footer address in local desktop and mobile renders, and on GitHub Pages after deployment run 32630307573. The live page exposes Shop 5 Faronbi Plaza, Opposite Isolo General Hospital, Lagos, and Get directions.
-- [ ] Save a checkpoint and report the correction.
+- [x] Save a checkpoint and report the correction.
 
 ## Primary Navigation Icons
 - [x] Inspect shared and homepage-specific primary navigation markup and styling.
 - [x] Add semantically matched icons beside each primary menu label.
 - [x] Verify icon sizing, active states, mobile navigation, and accessibility with desktop/mobile screenshots, TypeScript checking, and a production build.
-- [ ] Save a checkpoint and report the navigation update.
+- [x] Save a checkpoint and report the navigation update.
