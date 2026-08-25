@@ -14,18 +14,16 @@ import PacksPricing from "./pages/PacksPricing";
 import BulkSupply from "./pages/BulkSupply";
 import Contact from "@/pages/Contact";
 import Gallery from "@/pages/Gallery";
-import AssetLibrary from "@/pages/AssetLibrary";
 import NotFound from "./pages/NotFound";
 import { siteBase } from "@/lib/sitePaths";
 
 const routerBase = siteBase;
+
 function AppRouter() {
-  // make sure to consider if you need authentication for certain routes
   return (
     <Router base={routerBase}>
       <Switch>
       <Route path={"/"} component={Home} />
-      <Route path={"/asset-library"} component={AssetLibrary} />
       <Route path={"/story"} component={Story} />
       <Route path={"/catalogue"} component={Catalogue} />
       <Route path={"/packs-pricing"} component={PacksPricing} />
