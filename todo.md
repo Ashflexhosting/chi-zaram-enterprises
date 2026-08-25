@@ -345,3 +345,10 @@ The supplied emblem now uses a true transparent-background PNG in the homepage â
 - [x] Add semantically matched icons beside each primary menu label.
 - [x] Verify icon sizing, active states, mobile navigation, and accessibility with desktop/mobile screenshots, TypeScript checking, and a production build.
 - [ ] Save a checkpoint and report the navigation update.
+
+## Full-Stack File Storage Integration
+- [x] Upgrade the project from static hosting to the full-stack configuration.
+- [x] Inspect the generated backend, database, and storage helpers.
+- [x] Add a secure business-asset upload and serving workflow.
+- [x] Verify storage behavior and existing website functionality with database schema verification, TypeScript checking, automated authorization/storage tests, production build, and public/owner-route screenshots.
+- [ ] Save a checkpoint and report the full-stack integration.
