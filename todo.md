@@ -18,6 +18,15 @@
 - [x] Verify responsive results at 375px and 320px phone widths and run the production build.
 - [x] Save a checkpoint and report the optimized mobile homepage.
 
+## Frontend-Only Static Cleanup
+- [x] Audit code, dependencies, scripts, and project files for backend, database, authentication, and login remnants.
+- [x] Remove all non-static source files, packages, configuration, and runtime references.
+- [x] Verify static build, public routes, and absence of backend/auth/database references.
+- [x] Verify every public route after the frontend-only cleanup.
+- [x] Resolve the stale server-path error by restarting the static Vite service, then run a final whole-project remnant scan.
+- [x] Run a repository-wide scan for backend, database, authentication, login, and server remnants outside generated output.
+- [ ] Save a checkpoint and report the frontend-only project state.
+
 - [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
 - [x] Prepare selected uploaded assets for website use and map them to expanded sections.
 - [x] Expand the website with richer product details, gallery content, and stronger brand storytelling.
