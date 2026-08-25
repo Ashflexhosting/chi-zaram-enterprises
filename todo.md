@@ -1,11 +1,11 @@
-- [ ] Review and classify all 15 supplied images for palm oil, people, pack sizes, and brand-story use.
+- [x] Review and classify all 15 supplied images for palm oil, people, pack sizes, and brand-story use.
 ## Static-Site Restoration
 - [x] Restore the last stable static-site checkpoint from before the full-stack conversion.
 - [x] Remove untracked full-stack files that remain after checkpoint restoration.
 - [x] Verify that the public website, navigation, images, and contact flows remain intact on desktop and mobile.
 - [x] Verify primary navigation routes and active states after restoration across Story, Catalogue, Packs & Pricing, Bulk Supply, Contact, and Gallery on desktop and mobile.
 - [x] Verify restored WhatsApp, telephone, directions, and contact form action targets through static source inspection.
-- [ ] Save a checkpoint and report the restored static website.
+- [x] Save a checkpoint and report the restored static website.
 
 - [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
 - [x] Prepare selected uploaded assets for website use and map them to expanded sections.
@@ -215,42 +215,42 @@
 - [x] Add 'View Pricing & Calculator' button linking directly to Packs & Pricing.
 - [x] Implement subtle, reduced-motion-safe parallax scroll effect on the hero visual.
 - [x] Update site-wide SEO metadata to use the new palm-oil hero image for OpenGraph and WhatsApp sharing previews.
-- [ ] Save a checkpoint for the hero enhancements.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the hero enhancements.
 
 
 - [x] Implement smooth scrolling navigation from the hero 'View Pricing' CTA to the cost estimator section.
 - [x] Apply a subtle fade-in and slide-up motion to the hero headline and CTA button on first load.
 - [x] Add a shared floating WhatsApp chat widget to the bottom right of all pages with reduced-motion support.
-- [ ] Save a checkpoint for the interaction enhancements.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the interaction enhancements.
 
 
 - [x] Verify the hero CTA route and hash-aware estimator scroll behavior.
 - [x] Verify floating WhatsApp widget placement on Home and shared pages at desktop and mobile widths.
 - [x] Verify reduced-motion CSS fallbacks and successful type checking/production build.
-- [ ] Save a checkpoint for the interaction enhancements.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the interaction enhancements.
 
 
 - [x] Balance left and right padding on the footer logo white plate (.brand-lockup--footer).
 - [x] Verify footer rendering across desktop and mobile, with type checking and production build.
-- [ ] Save a checkpoint for the footer logo update.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the footer logo update.
 
 
 - [x] Identify the remaining gap as transparent canvas inside the horizontal logo asset rather than only outer plate padding.
 - [x] Constrain the footer logo artwork box to its visible wordmark width at desktop, medium, and mobile breakpoints.
 - [x] Verify the corrected footer plate on full-page desktop and mobile previews.
-- [ ] Save a checkpoint for the corrected footer logo artwork spacing.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the corrected footer logo artwork spacing.
 
 
 - [x] Add a subtle 12% opacity dimming effect on footer logo hover without changing the plate dimensions.
 - [x] Scale the footer wordmark down proportionally at the mobile breakpoint.
 - [x] Verify desktop/mobile presentation, type checking, and production build.
-- [ ] Save a checkpoint for the footer logo refinement.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the footer logo refinement.
 
 
 - [x] Diagnose missing GitHub Pages images as assets absent from client/public/manus-storage and unavailable via the dev-only storage proxy.
 - [x] Copy the new hero, brand-story, and story-team image files into the public asset directory.
 - [x] Verify all 34 referenced /manus-storage images are present in the GitHub Pages dist/public artifact.
-- [ ] Commit, push, and verify the GitHub Pages deployment.
+- [x] Commit, push, and verify the GitHub Pages deployment.
 
 
 - [x] Commit and push the public image assets to Ashflexhosting/chi-zaram.
@@ -261,19 +261,19 @@
 - [x] Apply a dark brand-matching background to the Our Story “What we believe” section.
 - [x] Update the section kicker, eyebrow, heading, body copy, and callout to light accessible colors.
 - [x] Verify contrast, section transitions, type checking, production build, desktop, and mobile layouts.
-- [ ] Save a checkpoint for the Story section styling update.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the Story section styling update.
 
 
 - [x] Add a restrained palm-leaf-inspired texture treatment to the dark What we believe background.
 - [x] Add an Explore our products CTA linking to the catalogue page.
 - [x] Verify texture subtlety, CTA contrast, type checking, production build, and desktop/mobile Story layouts.
-- [ ] Save a checkpoint for the Story section enhancement.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the Story section enhancement.
 
 
 - [x] Add Nwibe Ogochukwu Ekene to the Founder & Principal quote card.
 - [x] Verify the founder name remains readable on desktop and mobile Story layouts.
 - [x] Verify type checking and production build.
-- [ ] Save a checkpoint for the founder attribution update.
+- [x] Save the consolidated static baseline checkpoint `c6826059` for the founder attribution update.
 
 
 
