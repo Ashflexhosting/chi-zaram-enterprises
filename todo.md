@@ -1,4 +1,12 @@
 - [ ] Review and classify all 15 supplied images for palm oil, people, pack sizes, and brand-story use.
+## Static-Site Restoration
+- [x] Restore the last stable static-site checkpoint from before the full-stack conversion.
+- [x] Remove untracked full-stack files that remain after checkpoint restoration.
+- [x] Verify that the public website, navigation, images, and contact flows remain intact on desktop and mobile.
+- [x] Verify primary navigation routes and active states after restoration across Story, Catalogue, Packs & Pricing, Bulk Supply, Contact, and Gallery on desktop and mobile.
+- [x] Verify restored WhatsApp, telephone, directions, and contact form action targets through static source inspection.
+- [ ] Save a checkpoint and report the restored static website.
+
 - [ ] Save image review findings with source filenames for later reference.
 - [ ] Prepare selected uploaded assets for website use and map them to expanded sections.
 - [ ] Expand the website with richer product details, gallery content, and stronger brand storytelling.
