@@ -1,3 +1,0 @@
-# Footer logo spacing findings
-
-The stored horizontal wordmark is a wide 1200×506 asset with transparent canvas. The footer previously rendered it inside a wider CSS box than its visible artwork, so object-fit left unused transparent canvas inside the white oblong plate and created the apparent right-side gap. The footer wordmark dimensions are now constrained to 174×72 desktop, 150×62 medium, and 135×56 small/mobile, while the plate padding remains symmetric. The production build passes, and the full-page desktop preview shows the footer plate compressed to the wordmark rather than the previous oversized blank area.

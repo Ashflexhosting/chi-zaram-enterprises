@@ -277,7 +277,7 @@ button { cursor: pointer; }
 .lightbox__dots button { width: 6px; height: 6px; padding: 0; border: 0; border-radius: 50%; background: #746f64; }
 .lightbox__dots button.is-active { width: 22px; border-radius: 3px; background: #c99a4a; }
 
-.pricing-section { background-color: #e9dfd2; background-image: linear-gradient(rgba(233,223,210,0.9), rgba(233,223,210,0.9)), url('../manus-storage/chi-zaram-pattern_1a68dc12.jpg'); background-size: cover, 560px auto; background-repeat: no-repeat, repeat; }
+.pricing-section { background-color: #e9dfd2; background-image: linear-gradient(rgba(233,223,210,0.9), rgba(233,223,210,0.9)), url('/manus-storage/chi-zaram-pattern_1a68dc12.jpg'); background-size: cover, 560px auto; background-repeat: no-repeat, repeat; }
 .pricing-switcher { display: inline-flex; margin: 44px 0 20px; padding: 4px; background: #d9c7a6; }
 .pricing-switcher button { min-width: 145px; padding: 11px 18px; border: 0; background: transparent; color: #5f5a51; font-size: 11px; font-weight: 800; }
 .pricing-switcher button.is-active { background: #9f2f2a; color: #fffaf3; }
@@ -479,7 +479,7 @@ h2 { font-size: clamp(3rem, 6vw, 5.8rem); line-height: 0.94; color: #292a25; }
 .closing-section__leaf { position: absolute; color: #f4efe6; opacity: 0.09; }
 .closing-section__leaf--one { left: 4%; bottom: -21px; transform: rotate(-35deg); }
 .closing-section__leaf--two { right: 8%; top: 23px; transform: rotate(45deg); }
-.site-footer { position: relative; isolation: isolate; background-color: #292a25; background-image: linear-gradient(rgba(41,42,37,0.9), rgba(41,42,37,0.9)), url('../manus-storage/chi-zaram-pattern_1a68dc12.jpg'); background-size: cover, 560px auto; background-repeat: no-repeat, repeat; color: #f4efe6; }
+.site-footer { position: relative; isolation: isolate; background-color: #292a25; background-image: linear-gradient(rgba(41,42,37,0.9), rgba(41,42,37,0.9)), url('/manus-storage/chi-zaram-pattern_1a68dc12.jpg'); background-size: cover, 560px auto; background-repeat: no-repeat, repeat; color: #f4efe6; }
 .site-footer__top { position: relative; z-index: 1; min-height: 188px; display: grid; grid-template-columns: 1.2fr 1fr 1fr; align-items: center; gap: 55px; }
 .brand-lockup--footer .brand-lockup__type strong { color: #c99a4a; }
 .brand-lockup--footer .brand-lockup__type small { color: #91887a; }
@@ -863,7 +863,7 @@ html { font-size: calc(100% * var(--a11y-scale, 1)); }
 .catalogue-trust .catalogue-trust__card p { color: #e5ddd1; }
 
 /* Quality Guarantee texture + interaction polish: subtle botanical surface, tactile cards, reduced-motion safe. */
-.catalogue-trust { position: relative; isolation: isolate; overflow: hidden; background-color: #292a25; background-image: linear-gradient(rgba(41,42,37,0.89), rgba(41,42,37,0.92)), url("../manus-storage/chi-zaram-pattern_1a68dc12.jpg"); background-position: center; background-size: cover; }
+.catalogue-trust { position: relative; isolation: isolate; overflow: hidden; background-color: #292a25; background-image: linear-gradient(rgba(41,42,37,0.89), rgba(41,42,37,0.92)), url("/manus-storage/chi-zaram-pattern_1a68dc12.jpg"); background-position: center; background-size: cover; }
 .catalogue-trust::before { position: absolute; z-index: -1; inset: 0; background: radial-gradient(circle at 16% 20%, rgba(224,180,95,0.11), transparent 29%), radial-gradient(circle at 88% 82%, rgba(67,88,71,0.3), transparent 34%); pointer-events: none; content: ""; }
 .catalogue-trust__card { transition: transform 220ms var(--ease-out), box-shadow 220ms var(--ease-out), border-color 220ms ease-out, background 220ms ease-out; }
 .catalogue-trust__card:hover { transform: translateY(-7px); border-color: #f0c875; background: #435847; box-shadow: 0 20px 38px rgba(0,0,0,0.22); }

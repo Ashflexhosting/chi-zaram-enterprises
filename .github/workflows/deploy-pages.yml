@@ -42,12 +42,12 @@ jobs:
         run: pnpm build
 
       - name: Add SPA fallback for direct routes
-        run: cp dist/public/index.html dist/public/404.html
+        run: cp dist/index.html dist/404.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/public
+          path: dist
 
   deploy:
     environment:
