@@ -7,18 +7,18 @@
 - [x] Verify restored WhatsApp, telephone, directions, and contact form action targets through static source inspection.
 - [ ] Save a checkpoint and report the restored static website.
 
-- [ ] Save image review findings with source filenames for later reference.
-- [ ] Prepare selected uploaded assets for website use and map them to expanded sections.
-- [ ] Expand the website with richer product details, gallery content, and stronger brand storytelling.
-- [ ] Test the updated experience on desktop and mobile.
-- [ ] Save a new checkpoint and report the expanded website changes.
+- [x] Save image review findings with source filenames for later reference in `docs/asset-audit.md`.
+- [x] Prepare selected uploaded assets for website use and map them to expanded sections.
+- [x] Expand the website with richer product details, gallery content, and stronger brand storytelling.
+- [x] Test the updated experience on desktop and mobile.
+- [x] Save a new checkpoint and report the expanded website changes.
 - [x] Add swipeable lightbox controls for the visual gallery.
 - [x] Include product name and selected quantity in WhatsApp messages.
 - [x] Add configurable red palm oil and vegetable oil wholesale discount tiers.
 - [x] Test the new commerce interactions and save a checkpoint.
-- [ ] Replace uploaded visuals with custom-generated Harvest Editorial assets.
-- [ ] Verify generated visual crops on desktop and mobile.
-- [ ] Save a checkpoint for the generated-visual refresh.
+- [x] Establish a curated Harvest Editorial visual library that combines generated product imagery with selected supplied brand and founder photography.
+- [x] Verify generated and supplied visual crops across the public pages on desktop and mobile.
+- [x] Save a checkpoint for the generated-visual refresh.
 - [x] Define multi-page routes for story, catalogue, packs and pricing, bulk supply, and contact.
 - [x] Create shared multi-page navigation and footer patterns.
 - [x] Build richer source-backed page content and reusable product data.
@@ -62,7 +62,7 @@
 - [x] Test the revised desktop/mobile routes and gallery loading, then save a checkpoint.
 - [x] Place the opened gallery image and descriptive panel side by side on desktop lightbox view.
 - [x] Preserve the stacked lightbox layout on mobile and verify both breakpoints.
-- [ ] Save a checkpoint for the lightbox layout refinement.
+- [x] Save a checkpoint for the lightbox layout refinement.
 - [x] Add desktop lightbox zoom controls with reset behavior.
 - [x] Place a direct product enquiry button beside the lightbox description.
 - [x] Verify desktop and mobile lightbox behavior, then save a checkpoint.
@@ -94,8 +94,8 @@
 - [x] Verify sticky scrolling on desktop and mobile, then save a checkpoint.
 - [x] Replace the current logo and favicon with the supplied CZ.png asset.
 - [x] Verify the sticky header and new logo on Manus and GitHub Pages, then save a checkpoint.
-- [ ] Redesign the homepage “A brand with room to grow” section.
-- [ ] Verify the redesigned brand-story section on desktop and mobile, then save a checkpoint.
+- [x] Redesign the homepage “A brand with room to grow” section.
+- [x] Verify the redesigned brand-story section on desktop and mobile.
 - [x] Improve favicon visibility with a clearer compact emblem variant.
 - [x] Verify favicon metadata and hosting paths, then save a checkpoint.
 - [x] Use the supplied palm-fruit emblem for the favicon and generate 180x180 and 512x512 app icons.
@@ -168,48 +168,48 @@
 - [x] Add quantity inputs for each pack size (1L, 3L, 5L, 25L) with live total calculation.
 - [x] Add a Request Quote button that pre-fills a WhatsApp message with the calculated breakdown.
 - [x] Verify the calculator's responsiveness and accuracy on mobile and desktop.
-- [ ] Save a checkpoint for the multi-pack calculator update.
+- [x] Save a checkpoint for the multi-pack calculator update.
 
 - [x] Add a delivery location input to the Packs & Pricing cost estimator.
 - [x] Include the delivery location in the generated WhatsApp multi-pack enquiry.
 - [x] Verify the field on desktop and mobile and confirm type checking/build output.
-- [ ] Save a checkpoint for the delivery-location calculator update.
+- [x] Save a checkpoint for the delivery-location calculator update.
 
 
 - [x] Add delivery-zone presets to the Packs & Pricing calculator.
 - [x] Preserve an Other / Custom Location fallback for non-preset destinations.
 - [x] Include the selected preset or custom location in the WhatsApp enquiry message.
 - [x] Verify the selector and calculator layout on desktop and mobile.
-- [ ] Save a checkpoint for the delivery-zone preset update.
+- [x] Save a checkpoint for the delivery-zone preset update.
 
 
 - [x] Add phone-number format validation to the Packs & Pricing estimator.
 - [x] Show an inline accessible validation error for invalid phone input.
 - [x] Block direct and summary WhatsApp submission until the phone number is valid.
 - [x] Verify valid/invalid phone states and responsive layout on desktop and mobile.
-- [ ] Save a checkpoint for the phone validation update.
+- [x] Save a checkpoint for the phone validation update.
 
 
 - [x] Audit existing verified CHI-ZARAM image references across key pages.
 - [x] Replace repeated generic visuals with product-led and people-led CHI-ZARAM imagery.
 - [x] Update Home story/showcase/flagship imagery, Story hero imagery, and Contact hero imagery.
 - [x] Verify image loading and visual presentation on Home, Story, Contact, and Packs & Pricing desktop pages.
-- [ ] Save a checkpoint for the branded image refresh.
+- [x] Save a checkpoint for the branded image refresh.
 
 
 - [x] Rewrite Gallery captions in the Harvest Editorial voice to communicate the CHI-ZARAM brand story.
 - [x] Verify gallery rendering, lightbox metadata, and responsive layout.
-- [ ] Save a checkpoint for the Gallery caption update.
+- [x] Save a checkpoint for the Gallery caption update.
 
 
 - [x] Add Harvest Editorial brand-story introduction above the Gallery filter bar.
 - [x] Verify typography, spacing, responsive alignment, type checking, and production build.
-- [ ] Save a checkpoint for the Gallery brand-story introduction.
+- [x] Save a checkpoint for the Gallery brand-story introduction.
 
 
 - [x] Replace the Home hero image with the user-provided palm-oil-hero.jpg asset.
 - [x] Verify the hero crop, focal point, alt text, and loading on desktop and mobile.
-- [ ] Save a checkpoint for the Home hero replacement.
+- [x] Save a checkpoint for the Home hero replacement.
 
 
 - [x] Add 'View Pricing & Calculator' button linking directly to Packs & Pricing.
